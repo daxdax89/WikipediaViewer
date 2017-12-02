@@ -1,0 +1,46 @@
+body {
+  padding: 20px 20px 100px 20px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: lightblue;
+}
+
+/* Stylin' */
+a,
+a:hover {
+  text-decoration: none;
+}
+.random {
+  border-radius: 0 4px 4px 0;
+}
+header {
+  margin: 0 auto;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #382513;
+}
+header img {
+  width: 150px;
+  margin: 5px 0;
+}
+.search-row {
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+/* centered columns styles */
+.row-centered {
+  text-align: center;
+}
+.col-centered {
+  display: inline-block;
+  float: none;
+  /* reset the text-align */
+  text-align: left;
+  /* inline-block space fix */
+  margin-right: -4px;
+}
